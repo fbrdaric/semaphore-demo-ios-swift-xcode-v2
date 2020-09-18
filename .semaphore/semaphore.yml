@@ -17,7 +17,7 @@ blocks:
           - bundle install --path vendor/bundle
           - cache store
       jobs:
-        - name: Test
+        - name: Testing
           commands:
             - bundle exec xcversion select 11.1
             - bundle exec fastlane test
